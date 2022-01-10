@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.asj_project_main
 
 import org.junit.Test
 

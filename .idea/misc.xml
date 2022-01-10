@@ -3,7 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android-Study-Jams-Project/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/ASJ_Proj/app/src/main/res/layout/activity_bmi_checker.xml" value="0.264" />
+        <entry key="..\:/ASJ_Proj/app/src/main/res/layout/activity_health_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/ASJ_Proj/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
+        <entry key="..\:/ASJ_Proj/app/src/main/res/layout/activity_quotes.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/drawable/header_bg.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/drawable/ic_diet.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/drawable/ic_medical.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/drawable/txt_box.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/layout/activity_detail.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/layout/activity_health_menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/layout/activity_main.xml" value="0.17272727272727273" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/layout/activity_splash.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ASJ_project_main/app/src/main/res/layout/view.xml" value="0.2968299711815562" />
       </map>
     </option>
   </component>
