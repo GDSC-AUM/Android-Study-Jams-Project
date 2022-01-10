@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/primary"
-    tools:context=".healthcare.DetailActivity">
+    tools:context=".morderntech.ModernTechDetailActivity">
     <ImageView
         android:id="@+id/cover"
         android:layout_width="300dp"
@@ -33,21 +33,21 @@
             android:textStyle="bold"
             android:layout_marginTop="20dp"
             />
-            <ScrollView
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+            <TextView
+                android:id="@+id/scrollInfo"
                 android:layout_width="match_parent"
+                android:textColor="@color/white"
                 android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp">
-                <TextView
-                    android:id="@+id/scrollInfo"
-                    android:layout_width="match_parent"
-                    android:textColor="@color/white"
-                    android:layout_height="match_parent"
-                    android:text="Description In detail \n Make you of the whole code"
-                    android:textAlignment="gravity"
-                    android:fontFamily="@font/poppins_regular"
-                    android:layout_marginTop="10dp"/>
-            </ScrollView>
+                android:text="Description In detail \n Make you of the whole code"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginTop="10dp"/>
+        </ScrollView>
     </LinearLayout>
 
 

@@ -4,6 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.asj_project_main.databinding.ActivityMainBinding
+import com.example.asj_project_main.entertainment.EntertainmentMenuActivity
+import com.example.asj_project_main.fitness.FitnessMenuActivity
+import com.example.asj_project_main.healthcare.HealthMenuActivity
+import com.example.asj_project_main.morderntech.ModernTechMenuActivity
+import com.example.asj_project_main.selfcare.SelfCareMenuActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -13,7 +18,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.modernTech.setOnClickListener {
-            //add something
+            val intent = Intent(this, ModernTechMenuActivity::class.java)
+            startActivity(intent)
         }
         binding.healthCare.setOnClickListener {
             val intent = Intent(this, HealthMenuActivity::class.java)
@@ -26,13 +32,16 @@ class MainActivity : AppCompatActivity() {
             //add something
         }
         binding.fitness.setOnClickListener {
-            //add something
+            val intent = Intent(this, FitnessMenuActivity::class.java)
+            startActivity(intent)
         }
         binding.selfCare.setOnClickListener {
-            //add something
+            val intent = Intent(this, SelfCareMenuActivity::class.java)
+            startActivity(intent)
         }
         binding.entertainmentCard.setOnClickListener {
-            //add something
+            val intent = Intent(this, EntertainmentMenuActivity::class.java)
+            startActivity(intent)
         }
         binding.covidPrec.setOnClickListener {
             //add something

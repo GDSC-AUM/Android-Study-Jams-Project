@@ -1,12 +1,12 @@
-package com.example.asj_project_main
+package com.example.asj_project_main.healthcare
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.asj_project_main.databinding.ViewBinding
 
-class Adapter(private val health: List<healthcare>,
-              private val clickListener: healthclicklistener
+class Adapter(private val health: MutableList<healthcare>,
+              private val clickListener: HealthMenuActivity
               ): RecyclerView.Adapter<CardViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
         val from = LayoutInflater.from(parent.context)

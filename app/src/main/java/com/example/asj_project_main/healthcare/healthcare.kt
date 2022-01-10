@@ -1,4 +1,4 @@
-package com.example.asj_project_main
+package com.example.asj_project_main.healthcare
 
 val HEALTH_EXTRA = "bookExtra"
 var healthcareList = mutableListOf<healthcare>()

@@ -1,37 +1,35 @@
-package com.example.asj_project_main
+package com.example.asj_project_main.fitness
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.asj_project_main.databinding.ActivityDetailBinding.inflate
-import com.example.asj_project_main.databinding.ActivityHealthMenuBinding
-import com.example.asj_project_main.databinding.ActivityHealthMenuBinding.inflate
-import com.example.asj_project_main.databinding.ViewBinding.inflate
+import com.example.asj_project_main.R
+import com.example.asj_project_main.databinding.ActivityFitnessBinding
 
-class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
-    private lateinit var binding: ActivityHealthMenuBinding
+class FitnessMenuActivity : AppCompatActivity() , fitnessClickListener{
+    private lateinit var binding: ActivityFitnessBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHealthMenuBinding.inflate(layoutInflater)
+        binding= ActivityFitnessBinding.inflate(layoutInflater)
         setContentView(binding.root)
         healthcareinfo()
         val mainact = this
         binding.myView.apply{
             layoutManager = LinearLayoutManager(applicationContext)
-            adapter = Adapter(healthcareList,mainact)
+            adapter = fitnessAdapter(fitnessList,mainact)
         }
     }
 
-    override fun onClick(healthcare: healthcare) {
-        val intent = Intent(applicationContext,DetailActivity::class.java)
-        intent.putExtra(HEALTH_EXTRA,healthcare.id)
+    override fun onClick(fitness: fitness){
+        val intent = Intent(applicationContext, FitnessDetailActivity::class.java)
+        intent.putExtra(FITNESS_EXTRA,fitness.id)
         startActivity(intent)
     }
 
+
     private fun healthcareinfo() {
-        val health1 = healthcare(
+        val health1 = fitness(
             R.drawable.ic_exercise,
             "Exercise Tips",
             "What are the benefits of exercise for older adults? \n" +
@@ -50,9 +48,9 @@ class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
                     "ii) Watch a favorite movie or TV show while walking on the treadmill.\n" +
                     "iii) Go for a run, walk, or cycle when you’re feeling stressed—see how much better you feel afterwards \n\n"
         )
-        healthcareList.add(health1)
+        fitnessList.add(health1)
 
-        val health2 = healthcare(
+        val health2 = fitness(
             R.drawable.ic_diet,
             "Dietary Plans and Information",
             "Eating a well-balanced diet is an important part of staying healthy as you age. It can help you maintain a healthy weight, stay energized, and get the nutrients you need. It also lowers your risk of developing chronic health conditions, such as heart disease and diabetes.\n" +
@@ -66,8 +64,8 @@ class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
                     "- Avoid processed foods with artificial colours and preservatives.\n\n" +
                     "As you age, you may not notice when you’re thirsty. Make sure you’re drinking fluids on a regular basis.\n\n"
         )
-        healthcareList.add(health2)
-        val health3 = healthcare(
+        fitnessList.add(health2)
+        val health3 = fitness(
             R.drawable.ic_mentalhealth,
             "Mental Health",
             "Old age is a natural phenomenon and comes with its own set of challenges.  As the elder population is increasing, their traditional nurturing and life-sustaining influences are slowly becoming less effective. Depression, dementia, and anxiety are commonly seen in old age and have an effect on senior’s mental health and well-being.\n" +
@@ -88,8 +86,8 @@ class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
                     "\n\n" +
                     "“Each time you set a healthy boundary, you say “yes” to more freedom”-  Nancy Levin\n\n"
         )
-        healthcareList.add(health3)
-        val health4 = healthcare(
+        fitnessList.add(health3)
+        val health4 = fitness(
             R.drawable.ic_medical,
             "Medical Informations",
             "Health problems are one of the very common and very important factors which our elder’s face in the second inning of their life.\n" +
@@ -154,8 +152,8 @@ class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
                     "* Have more infections than usual\n\n\n" +
                     "For more enquiries always visit a doctor and get the best medication and treatment prescribed.\n"
         )
-        healthcareList.add(health4)
-        val health5 = healthcare(
+        fitnessList.add(health4)
+        val health5 = fitness(
             R.drawable.ic_outdoor,
             "Outdoor Activities",
             "Why Should Seniors Engage in Outings?\n" +
@@ -175,8 +173,8 @@ class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
                     "\n"+"5. Picnic\n" +
                     "A picnic, however elaborate or simple it might be, is a good way to bask under the sun and soak up that much-needed Vitamin D. It is also a form of social activity that will allow seniors to have conversations with their friends, or even caregivers.\n\n"
         )
-        healthcareList.add(health5)
-        val health6 = healthcare(
+        fitnessList.add(health5)
+        val health6 = fitness(
             R.drawable.ic_covid_19,
             "Information on Covid-19",
             "What is Covid - 19? \n" +
@@ -206,6 +204,6 @@ class HealthMenuActivity : AppCompatActivity(), healthclicklistener {
                     "Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility. \n\n\n" +
                     "STAY SAFE AND TAKE CARE! \n"
         )
-        healthcareList.add(health6)
+        fitnessList.add(health6)
     }
 }
