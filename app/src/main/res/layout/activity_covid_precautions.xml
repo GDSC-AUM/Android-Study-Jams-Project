@@ -14,5 +14,5 @@
         app:layoutManager="LinearLayoutManager"
         android:scrollbars="vertical"
 
-        android:id="@+id/recycler_view3"/>
+        android:id="@+id/recycler_view"/>
 </FrameLayout>

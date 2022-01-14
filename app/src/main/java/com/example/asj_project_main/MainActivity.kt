@@ -3,6 +3,7 @@ package com.example.asj_project_main
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.asj_project_main.covidprec.CovidPrecautionActivity
 import com.example.asj_project_main.databinding.ActivityMainBinding
 import com.example.asj_project_main.entertainment.EntertainmentMenuActivity
 import com.example.asj_project_main.fitness.FitnessMenuActivity
@@ -29,7 +30,8 @@ class MainActivity : AppCompatActivity() {
             //add something
         }
         binding.newsCard.setOnClickListener {
-            //add something
+            val intent = Intent(this, News::class.java)
+            startActivity(intent)
         }
         binding.fitness.setOnClickListener {
             val intent = Intent(this, FitnessMenuActivity::class.java)
@@ -44,7 +46,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.covidPrec.setOnClickListener {
-            //add something
+            val intent = Intent(this, CovidPrecautions::class.java)
+            startActivity(intent)
         }
         binding.userManual.setOnClickListener {
             //add something
