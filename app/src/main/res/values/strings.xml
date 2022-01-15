@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ASJ_project_main</string>
+    <!--    Strings for news-->
+
+    <string name="news_1">PM Security Breached: Who Protects Him, What Travel Protocol and Who Responsible for Lapses?</string>
+    <string name="news_2">Bitter Pill: Oral Anti-Covid Drug Molnupiravir Has Major Safety Concerns, Says ICMR Chief </string>
+    <string name="news_3">Excellent</string>
+    <string name="news_4">keep ot </string>
+    <string name="news_5">U pppppppppppppppp</string>
+
+    <!--    Strings for covid-->
+    <string name="covid_1">Get Vaccinated</string>
+    <string name="covid_2">Wear a mask</string>
+    <string name="covid_3">Stay 6 feet away from others</string>
+    <string name="covid_4">Avoid crowds and poorly ventilated spaces</string>
+    <string name="covid_5">Test to prevent spread to others</string>
+    <string name="covid_6">Wash your hands often</string>
+    <string name="covid_7">Cover coughs and sneezes</string>
+    <string name="covid_8">Clean and disinfect</string>
+    <string name="covid_9">Monitor your health daily</string>
 </resources>
