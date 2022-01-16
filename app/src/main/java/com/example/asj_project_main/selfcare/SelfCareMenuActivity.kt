@@ -30,43 +30,50 @@ class SelfCareMenuActivity : AppCompatActivity(), SelfCareClickListener {
 
     private fun healthcareinfo() {
         val health1 = selfcare(
-            R.drawable.ic_exercise,
-            "Exercise Tips",
-            "What are the benefits of exercise for older adults? \n" +
-                    "There are many reasons why we tend to slow down and become more sedentary with age. It may be due to health problems, weight or pain issues, or worries about falling.\n" +
-                    " Or perhaps you think that exercising simply isn’t for you. But as you grow older, an active lifestyle becomes more important than ever to your health. \n" +
-                    "Getting moving can help boost your energy, maintain your independence, protect your heart, and manage symptoms of illness or pain as well as your weight. Regular exercise is also good for your mind, mood, and memory. \n" +
-                    "It’s never too late to find simple, enjoyable ways to become more active, improve your mood and outlook, and reap all of the physical and mental health benefits of exercise. \n\n" +
-                    " - Physical health benefits of exercise - \n" +
-                    "1. Reduce the impact of illness and chronic disease. People who exercise tend to have improved immune and digestive functioning, better blood pressure and bone density, and a lower risk of Alzheimer’s disease, diabetes, obesity, heart disease, osteoporosis, and certain cancers.\n" +
-                    "2. Enhance your mobility, flexibility, and balance. Exercise improves your strength, flexibility, and posture, which in turn can help with your balance and coordination, and reduce your risk of falls.\n" +
-                    "3. Boost your mood and self-confidence. Exercise is a huge stress reliever and the endorphins produced can actually help reduce feelings of sadness, depression, and anxiety. Being active and feeling strong can also help you feel more self-confident.\n" +
-                    "4. Improve your brain function Activities like Sudoku or crossword puzzles can help keep your brain active, but little comes close to the beneficial effects of exercise on the brain.\n\n" +
-                    "What if you hate to exercise? \n" +
-                    "Think about activities that you enjoy and how you can incorporate them into an exercise routine:\n" +
-                    "i) Take photographs on a nature hike.\n" +
-                    "ii) Watch a favorite movie or TV show while walking on the treadmill.\n" +
-                    "iii) Go for a run, walk, or cycle when you’re feeling stressed—see how much better you feel afterwards \n\n"
+            R.drawable.ic_selfcare1,
+            "Importance of Self care",
+            "Self-care is an important aspect of life one cannot overlook. Self-love is an undeniable part of everyone’s life.\n" +
+                    "\n" +
+                    "Having said that, older adults are increasingly prone to feeling deserted, leading them to acquire a solitary attitude. Additionally, they tend to display withdrawn and unsocial tendencies which eventually takes a toll on their mental and physical health.\n" +
+                    "\n" +
+                    "Such feelings are quite common among older adults but aren’t recommended for their overall health. A beneficial solution is to practice self-care. \n\n" +
+                    "The two aspects of self care are\n" +
+                    "\n" +
+                    "⦁ SELF CARE OF THE BODY\n" +
+                    "1.Taking care of your health by exercising regularly which can be any form of activity , be it walk, yoga, or even light weight training or doing daily household chores which bring about NEAT- Non Exercise Activity Training which is the exercise we do while working at home.\n" +
+                    "2.Regular health checkups. It is essential to keep tab over your current health condition and take measures to prevent health issues in future.\n" +
+                    "3. Taking your prescribed medicines regularly and on time.\n" +
+                    "4.Balanced nutrition. Eating wholesome timely meals which includes fruits, vegetables, fibrous foods, whole grains and healthy fats along with adequate intake of water is important.\n" +
+                    "\n" +
+                    "Active body leads to energetic and independent life.\n\n" +
+                    "SELF CARE OF MIND\n" +
+                    "\n" +
+                    "1. Get involved in social and community services.\n" +
+                    "2. Spending adequate family time with children and grandchildren. Also keep meeting relatives and  old friends, make new friends.\n" +
+                    "3. Practice mindfulness, meditation and self reflection.\n" +
+                    "4. Indulge in arts, music, dance, drawing , gardening, reading or taking up a new hobby. Visiting places of interest like museums or going for outings like movies etc.\n\n"
         )
         selfcareList.add(health1)
 
         val health2 = selfcare(
-            R.drawable.ic_diet,
-            "Dietary Plans and Information",
-            "Eating a well-balanced diet is an important part of staying healthy as you age. It can help you maintain a healthy weight, stay energized, and get the nutrients you need. It also lowers your risk of developing chronic health conditions, such as heart disease and diabetes.\n" +
-                    " It’s never too late to get healthy and improve your quality of life. For some older adults this means maintaining or reaching a healthy weight \n" +
-                    "In general, weight loss is not recommended as it already occurs within 15% to 20% of all elderly adults and it can increase the risk for morbidities and mortality. \n\n" +
-                    "Diet do's and don't\n" +
-                    "-  Add plenty of natural colour to your diet. Two to three meals of seasonal fruits will work as antioxidants and prevent constipation.\n" +
-                    "- Egg whites are a good source of protein important for repair of worn out cells and tissues.\n" +
-                    "- Vegetables soups without cream and thickening agents are a healthy meal to be taken as a supper.\n" +
-                    "- Drink about 15 glasses of water in a day to prevent dehydration. In old age, muscle density reduces and susceptibility to dehydration is always very high, especially in summer.\n" +
-                    "- Avoid processed foods with artificial colours and preservatives.\n\n" +
-                    "As you age, you may not notice when you’re thirsty. Make sure you’re drinking fluids on a regular basis.\n\n"
+            R.drawable.ic_selfcare2,
+            "How to practice Self care?",
+            "Self-care is simple enough to practice. All you need to do is keep at these little habits of self-care each day, and witness your life transforming for the best!\n" +
+                    "\n" +
+                    "1. Know it is acceptable to ask for help:\n" +
+                    "As age increases, most people tend to depend on others more compared to previous years. This is a normal component of aging in place and can enhance relationships with your loved ones. If you need anything to be done beyond your reach, never hesitate to ask for help.\n\n" +
+                    "2. Laugh more often:\n" +
+                    "Laughing releases happy hormones in your system. Dopamine and serotonin are secreted in your system when you laugh more often and are generally happy and contented. This, in turn, causes your body to respond positively to the happenings in life.\n\n" +
+                    "3. Meditate and exercise:\n" +
+                    "Exercise sets your blood flow in motion. And meditation improves your mental health both for the short and the long term. Practice a 3-5-minute meditating session each day. Basic exercises like walking, stretching, and isometric exercises can be incorporated into your daily routine. This decreases stiffness in your joints and increases blood flow and circulation which improves your overall health too.\n\n" +
+                    "4. Diet and eating habits:\n" +
+                    "With increasing age, you need to focus on your diet more than before. Schedules including eating habits is helpful, specifically if you take medications. Make sure you include plenty of fiber, proteins, and simple carbs in your food. Stay away from processed, sugary, and fatty ingredients.\n\n" +
+                    "5. Sleeping habits:\n" +
+                    "Sleeping relaxes our bodies. Hormones that induce hunger and satiate our appetite, ghrelin a and leptin, are secreted while you’re at rest. This helps keep your appetite regulated. When you pay attention to your sleep cycle consciously, you are helping your body heal and recover. \n\n"
         )
         selfcareList.add(health2)
         val health3 = selfcare(
-            R.drawable.ic_mentalhealth,
+            R.drawable.ic_selfcare3,
             "Mental Health",
             "Old age is a natural phenomenon and comes with its own set of challenges.  As the elder population is increasing, their traditional nurturing and life-sustaining influences are slowly becoming less effective. Depression, dementia, and anxiety are commonly seen in old age and have an effect on senior’s mental health and well-being.\n" +
                     "Older adults, those aged 60 or above, make important contributions to society as family members, volunteers and as active participants in the workforce.\n" +
