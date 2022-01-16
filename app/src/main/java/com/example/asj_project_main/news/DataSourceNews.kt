@@ -7,14 +7,10 @@ class DataSourceNews {
         return listOf<Affirmation>(
             Affirmation(R.string.news_1 , R.drawable.image0),
             Affirmation(R.string.news_2,R.drawable.image1),
-            Affirmation(R.string.news_3,R.drawable.image0),
-            Affirmation(R.string.news_4,R.drawable.image1),
-            Affirmation(R.string.news_1,R.drawable.image0),
-            Affirmation(R.string.news_2,R.drawable.image1),
-            Affirmation(R.string.news_3,R.drawable.image1),
-            Affirmation(R.string.news_4,R.drawable.image0),
-            Affirmation(R.string.news_5,R.drawable.image1),
-            Affirmation(R.string.news_1,R.drawable.image1)
+            Affirmation(R.string.news_3,R.drawable.image3),
+            Affirmation(R.string.news_4,R.drawable.image4),
+            Affirmation(R.string.news_5,R.drawable.image5),
+            Affirmation(R.string.news_6,R.drawable.image6)
         )
     }
 }
